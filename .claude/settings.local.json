@@ -12,7 +12,8 @@
       "Bash(magick --version)",
       "Bash(gh auth:*)",
       "Bash(gh repo:*)",
-      "Bash(curl:*)"
+      "Bash(curl:*)",
+      "Bash(gh workflow:*)"
     ]
   }
 }

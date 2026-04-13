@@ -1,5 +1,6 @@
 import { motion } from "motion/react";
 import { OrganicBlob } from "@/components/decorative/OrganicBlob";
+import { asset } from "@/lib/utils";
 
 export function About() {
   return (
@@ -72,7 +73,7 @@ export function About() {
           <div className="relative mx-auto w-72 sm:w-80 lg:w-full lg:max-w-lg">
             <div className="overflow-hidden rounded-2xl shadow-xl ring-4 ring-bloom-sage/15" style={{ transform: "rotate(1.5deg)" }}>
               <img
-                src="/Headshot.jpeg"
+                src={asset("Headshot.jpeg")}
                 alt="Dr. Anna Bloomfield, Licensed Acupuncturist"
                 className="w-full object-cover object-top"
                 style={{ maxHeight: "800px" }}

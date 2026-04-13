@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from "motion/react";
 import { X, ChevronLeft, ChevronRight } from "lucide-react";
 import { GALLERY_IMAGES } from "@/lib/constants";
 import { OrganicBlob } from "@/components/decorative/OrganicBlob";
+import { asset } from "@/lib/utils";
 
 export function Gallery() {
   const [lightboxIdx, setLightboxIdx] = useState<number | null>(null);
@@ -53,7 +54,7 @@ export function Gallery() {
               className="group relative aspect-[3/4] overflow-hidden rounded-xl focus:outline-none focus-visible:ring-2 focus-visible:ring-bloom-slate"
             >
               <img
-                src={img.src}
+                src={asset(img.src)}
                 alt={img.alt}
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                 loading="lazy"
@@ -80,7 +81,7 @@ export function Gallery() {
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 0.92 }}
               transition={{ duration: 0.3 }}
-              src={GALLERY_IMAGES[lightboxIdx].src}
+              src={asset(GALLERY_IMAGES[lightboxIdx].src)}
               alt={GALLERY_IMAGES[lightboxIdx].alt}
               className="max-h-[85vh] max-w-[90vw] rounded-xl object-contain shadow-2xl"
               onClick={(e) => e.stopPropagation()}

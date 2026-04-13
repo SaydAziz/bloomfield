@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { useScrollSpy } from "@/lib/hooks/use-scroll-spy";
 import { NAV_ITEMS } from "@/lib/constants";
 import { smoothScroll } from "@/lib/hooks/use-smooth-navigate";
-import { cn } from "@/lib/utils";
+import { cn, asset } from "@/lib/utils";
 
 const SECTION_IDS = NAV_ITEMS.map((item) => item.href.slice(1));
 
@@ -47,7 +47,7 @@ export function Navbar() {
             onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); }}
             className="flex items-center gap-3"
           >
-            <img src="/Logo.png" alt="Bloomfield" className="h-10 w-auto" />
+            <img src={asset("Logo.png")} alt="Bloomfield" className="h-10 w-auto" />
             <span className="font-display text-2xl font-semibold tracking-wide text-bloom-brown">
               Bloomfield
             </span>

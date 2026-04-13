@@ -1,5 +1,6 @@
 import { Mail, Phone, Globe, MapPin } from "lucide-react";
 import { NAV_ITEMS, CONTACT, LOCATIONS } from "@/lib/constants";
+import { asset } from "@/lib/utils";
 
 export function Footer() {
   const handleNavClick = (href: string) => {
@@ -14,7 +15,7 @@ export function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-3">
-              <img src="/Logo.png" alt="" className="h-10 w-auto brightness-110" />
+              <img src={asset("Logo.png")} alt="" className="h-10 w-auto brightness-110" />
               <span className="font-display text-2xl font-semibold tracking-wide">
                 Bloomfield
               </span>

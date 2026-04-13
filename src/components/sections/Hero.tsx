@@ -3,6 +3,7 @@ import { ArrowDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { OrganicBlob } from "@/components/decorative/OrganicBlob";
 import { smoothScroll } from "@/lib/hooks/use-smooth-navigate";
+import { asset } from "@/lib/utils";
 
 
 const EASE = [0.22, 1, 0.36, 1] as const;
@@ -41,7 +42,7 @@ export function Hero() {
           <div className="mb-6">
             <div className="animate-float p-1">
               <img
-                src="/Logo.png"
+                src={asset("Logo.png")}
                 alt="Bloomfield Acupuncture"
                 className="h-36 w-auto lg:h-44"
               />
@@ -136,7 +137,7 @@ export function Hero() {
               style={{ borderRadius: "30% 70% 70% 30% / 30% 30% 70% 70%" }}
             >
               <img
-                src="/treatment-patient-care.jpeg"
+                src={asset("treatment-patient-care.jpeg")}
                 alt="Dr. Bloomfield performing acupuncture treatment"
                 className="h-full w-full object-cover"
               />

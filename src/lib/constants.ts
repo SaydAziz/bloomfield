@@ -293,14 +293,14 @@ export const FAQ_ITEMS = [
 ] as const;
 
 export const GALLERY_IMAGES = [
-  { src: "/treatment-ear-auriculotherapy.jpeg", alt: "Auriculotherapy treatment on ear" },
-  { src: "/treatment-back-needles.jpeg", alt: "Acupuncture needles along the back" },
-  { src: "/treatment-patient-care.jpeg", alt: "Dr. Bloomfield treating a patient" },
-  { src: "/treatment-back-multiple-bw.jpeg", alt: "Acupuncture treatment in black and white" },
-  { src: "/treatment-deep-insertion.jpeg", alt: "Precise needle placement technique" },
-  { src: "/treatment-neck-needles.jpeg", alt: "Acupuncture treatment on neck and upper back" },
-  { src: "/treatment-back-ear.jpeg", alt: "Combined back and ear acupuncture treatment" },
-  { src: "/treatment-needle-insertion.jpeg", alt: "Careful needle insertion technique" },
-  { src: "/treatment-bw-insertion.jpeg", alt: "Acupuncture needle insertion close-up" },
-  { src: "/treatment-back-bw.jpeg", alt: "Back treatment in black and white" },
+  { src: "treatment-ear-auriculotherapy.jpeg", alt: "Auriculotherapy treatment on ear" },
+  { src: "treatment-back-needles.jpeg", alt: "Acupuncture needles along the back" },
+  { src: "treatment-patient-care.jpeg", alt: "Dr. Bloomfield treating a patient" },
+  { src: "treatment-back-multiple-bw.jpeg", alt: "Acupuncture treatment in black and white" },
+  { src: "treatment-deep-insertion.jpeg", alt: "Precise needle placement technique" },
+  { src: "treatment-neck-needles.jpeg", alt: "Acupuncture treatment on neck and upper back" },
+  { src: "treatment-back-ear.jpeg", alt: "Combined back and ear acupuncture treatment" },
+  { src: "treatment-needle-insertion.jpeg", alt: "Careful needle insertion technique" },
+  { src: "treatment-bw-insertion.jpeg", alt: "Acupuncture needle insertion close-up" },
+  { src: "treatment-back-bw.jpeg", alt: "Back treatment in black and white" },
 ] as const;
