@@ -13,7 +13,12 @@
       "Bash(gh auth:*)",
       "Bash(gh repo:*)",
       "Bash(curl:*)",
-      "Bash(gh workflow:*)"
+      "Bash(gh workflow:*)",
+      "Bash(cp \"IMG_4113.JPG.jpeg\" \"treatment-needle-elbow.jpeg\")",
+      "Bash(cp \"IMG_4114.JPG.jpeg\" \"treatment-patient-table.jpeg\")",
+      "Bash(cp \"IMG_4115.JPG.jpeg\" \"treatment-patient-care.jpeg\")",
+      "Bash(cp \"IMG_4116.JPG.jpeg\" \"treatment-needle-insertion.jpeg\")",
+      "Bash(cp \"IMG_4117.JPG.jpeg\" \"treatment-hands-close.jpeg\")"
     ]
   }
 }
