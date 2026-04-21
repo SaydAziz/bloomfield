@@ -23,7 +23,7 @@ export function Testimonials() {
         </motion.div>
 
         {/* Grid layout instead of horizontal scroll */}
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {TESTIMONIALS.map((t, i) => (
             <motion.div
               key={i}
@@ -31,13 +31,13 @@ export function Testimonials() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.08, duration: 0.45 }}
-              className="rounded-2xl bg-bloom-cream-light p-6 shadow-sm"
+              className="flex flex-col rounded-2xl bg-bloom-cream-light p-6 shadow-sm"
             >
               <Quote className="size-7 text-bloom-gold/30" />
               <p className="mt-3 text-sm leading-relaxed text-bloom-brown-light italic">
                 "{t.quote}"
               </p>
-              <div className="mt-4 border-t border-bloom-gold/10 pt-3">
+              <div className="mt-auto border-t border-bloom-gold/10 pt-3">
                 <p className="font-display text-base font-semibold text-bloom-brown">{t.name}</p>
                 <p className="text-xs tracking-wide text-bloom-sage">{t.condition}</p>
               </div>
