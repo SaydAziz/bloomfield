@@ -48,7 +48,7 @@ export function Navbar() {
             className="flex items-center gap-3"
           >
             <img src={asset("Logo.png")} alt="Bloomfield" className="h-9 w-auto md:h-10" />
-            <span className="whitespace-nowrap font-display text-lg font-semibold tracking-wide text-bloom-brown md:text-base lg:text-xl xl:text-2xl">
+            <span className="font-display text-lg font-semibold leading-tight tracking-wide text-bloom-brown md:text-xl lg:text-2xl">
               Bloomfield Acupuncture
             </span>
           </a>
