@@ -218,34 +218,28 @@ export const SERVICES = [
 
 export const TESTIMONIALS = [
   {
-    name: "Sarah M.",
-    condition: "Chronic Pain",
-    quote:
-      "After years of living with constant pain, Dr. Bloomfield gave me my life back. I can finally play with my kids again without wincing.",
-  },
-  {
-    name: "James R.",
-    condition: "Anxiety & Insomnia",
-    quote:
-      "I was skeptical at first, but after just three sessions, I was sleeping through the night for the first time in years. The calm I feel now is incredible.",
-  },
-  {
-    name: "Maria L.",
-    condition: "Migraines",
-    quote:
-      "My migraines went from weekly to almost nonexistent. Dr. Bloomfield truly listens and creates a treatment plan that works for you as an individual.",
-  },
-  {
-    name: "David K.",
+    name: "Ashley S.",
     condition: "Sports Recovery",
     quote:
-      "The combination of acupuncture and cupping has transformed my recovery time. I wish I'd started this years ago.",
+      "Dr. Bloomfield was absolutely amazing. She created a safe and welcoming space. She was thorough, explained what she was doing, and when she was doing it. She was detail oriented. Most importantly, I walked out of my session truly feeling relief from the pain I came in with. Highly recommend!",
   },
   {
-    name: "Linda P.",
-    condition: "Digestive Issues",
+    name: "Yvi H.",
+    condition: "Chronic Pain Management",
     quote:
-      "The herbal formulas Dr. Bloomfield prescribed alongside acupuncture have completely changed my relationship with food and digestion.",
+      "Anna is the real deal! She's attentive to my chronic pain and is very knowledgeable about acupuncture and Chinese herbal medicine. I would highly recommend!",
+  },
+  {
+    name: "Ben S.",
+    condition: "Insomnia & Stress",
+    quote:
+      "Anna has been doing my acupuncture for a while now, and it's nothing short of amazing. She's incredibly talented, a great listener, and the treatment is always on point. I can't say enough good things about her. Everyone should be going to her for their acupuncture. Highly recommended.",
+  },
+  {
+    name: "Zoe W.",
+    condition: "Herbal & Nutrition Consultations",
+    quote:
+      "I can't say enough about Anna. I do regular herbal and nutrition consultations with her, and have also had acupuncture sessions. She has been amazingly helpful. Anna is a very attentive, supportive, and responsive listener who knows how to work with you towards your health goals.",
   },
 ] as const;
 
