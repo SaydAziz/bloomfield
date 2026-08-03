@@ -135,8 +135,8 @@ export function Hero() {
               style={{ borderRadius: "30% 70% 70% 30% / 30% 30% 70% 70%" }}
             >
               <img
-                src={asset("treatment-patient-care.jpeg")}
-                alt="Dr. Bloomfield performing acupuncture treatment"
+                src={asset("treatment-room.jpeg")}
+                alt="Treatment room at Bloomfield Acupuncture, Hyde Park"
                 className="h-full w-full object-cover"
               />
               <div className="absolute inset-0 bg-bloom-sage/10 mix-blend-multiply" />

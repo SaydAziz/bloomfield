@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
 import { Quote } from "lucide-react";
 import { TESTIMONIALS } from "@/lib/constants";
+import { asset } from "@/lib/utils";
 
 export function Testimonials() {
   return (
@@ -20,6 +21,33 @@ export function Testimonials() {
             Patient Stories
           </h2>
           <div className="mx-auto mt-4 h-px w-12 bg-bloom-gold/50" />
+        </motion.div>
+
+        {/* Award plaque */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="mx-auto mb-12 flex max-w-2xl flex-col items-center gap-6 rounded-2xl bg-bloom-cream-light p-6 text-center shadow-sm sm:flex-row sm:gap-8 sm:p-8 sm:text-left"
+        >
+          <img
+            src={asset("award-businessrate-2026.jpeg")}
+            alt="BusinessRate Ranked #1 Award Winner plaque, June 2026 — Bloomfield Acupuncture, Hyde Park, Chicago"
+            className="w-32 shrink-0 rounded-md shadow-md sm:w-36"
+          />
+          <div>
+            <span className="text-xs font-medium uppercase tracking-[0.2em] text-bloom-gold">
+              Award Winner
+            </span>
+            <h3 className="mt-2 font-display text-2xl font-semibold tracking-wide text-bloom-brown">
+              Ranked #1 Acupuncture Clinic in Hyde Park
+            </h3>
+            <p className="mt-3 text-sm leading-relaxed text-bloom-brown-light">
+              Recognized by BusinessRate in June 2026, based on verified Google Reviews from our
+              patients.
+            </p>
+          </div>
         </motion.div>
 
         {/* Grid layout instead of horizontal scroll */}
