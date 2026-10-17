@@ -3,7 +3,7 @@ export const BOOKING_URL = "https://bloomfield-acu.janeapp.com/#/staff_member/1/
 export const LOCATIONS = [
   {
     name: "Hyde Park, Chicago",
-    address: "1525 E 53rd St, Ste 814",
+    address: "1525 E 55th St, Ste 302",
     city: "Chicago, IL 60615",
     bookingUrl: "https://bloomfield-acu.janeapp.com/#/staff_member/1/treatment/1",
   },
@@ -277,7 +277,7 @@ export const FAQ_ITEMS = [
   {
     question: "Where are you located?",
     answer:
-      "We have two locations: Hyde Park in Chicago at 1525 E 53rd St, Ste 814, Chicago, IL 60615, and Frankfort at 20500 S La Grange Rd, Ste 5, Frankfort, IL 60423.",
+      "We have two locations: Hyde Park in Chicago at 1525 E 55th St, Ste 302, Chicago, IL 60615, and Frankfort at 20500 S La Grange Rd, Ste 5, Frankfort, IL 60423.",
   },
   {
     question: "How should I prepare for my appointment?",

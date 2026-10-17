@@ -7,9 +7,9 @@ import { LOCATIONS } from "@/lib/constants";
 
 const DIRECTIONS = [
   {
-    text: "Our Chicago location is conveniently located in the Hyde Park Bank Building at 1525 E 53rd St, Suite 814 in Hyde Park. There are numerous public transportation options nearby including the 53rd Street Metra stop, which is less than a 5 minute walk from the building. There are paid parking options on 53rd and unpaid parking options on Harper Ave and the surrounding side streets.",
-    fullAddress: "1525 E 53rd St, Ste 814, Chicago, IL 60615",
-    mapQuery: "1525+E+53rd+St+Ste+814+Chicago+IL+60615",
+    text: "Our Chicago location is conveniently located at 1525 E 55th St, Suite 302 in Hyde Park. There are numerous public transportation options nearby including the 53rd Street Metra stop, which is less than a 5 minute walk from the building. There are paid parking options on 53rd and unpaid parking options on Harper Ave and the surrounding side streets.",
+    fullAddress: "1525 E 55th St, Ste 302, Chicago, IL 60615",
+    mapQuery: "1525+E+55th+St+Ste+302+Chicago+IL+60615",
   },
   {
     text: "Dr. Bloomfield works at the renowned Acu-Rehab-Med at 20500 S La Grange Rd, Ste. 5 in Frankfort, IL, just down the road from I-80 W. There is abundant free parking in front of the building.",
