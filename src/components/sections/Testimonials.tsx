@@ -51,7 +51,7 @@ export function Testimonials() {
         </motion.div>
 
         {/* Grid layout instead of horizontal scroll */}
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="flex flex-wrap justify-center gap-6">
           {TESTIMONIALS.map((t, i) => (
             <motion.div
               key={i}
@@ -59,7 +59,7 @@ export function Testimonials() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.08, duration: 0.45 }}
-              className="flex flex-col rounded-2xl bg-bloom-cream-light p-6 shadow-sm"
+              className="flex w-full flex-col rounded-2xl bg-bloom-cream-light p-6 shadow-sm sm:w-[calc((100%-1.5rem)/2)] lg:w-[calc((100%-4.5rem)/4)]"
             >
               <Quote className="size-7 text-bloom-gold/30" />
               <p className="mt-3 text-sm leading-relaxed text-bloom-brown-light italic">

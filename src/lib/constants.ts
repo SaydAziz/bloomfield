@@ -241,6 +241,24 @@ export const TESTIMONIALS = [
     quote:
       "I can't say enough about Anna. I do regular herbal and nutrition consultations with her, and have also had acupuncture sessions. She has been amazingly helpful. Anna is a very attentive, supportive, and responsive listener who knows how to work with you towards your health goals.",
   },
+  {
+    name: "Susan K.",
+    condition: "Retired Physician",
+    quote:
+      "As a retired physician who has periodically used acupuncture with other practitioners over the decades, I can tell you Dr Bloomfield is 5 star. Her training, attention to detail, follow up, and personable care make her outstanding in every way. If you're considering acupuncture and Chinese Medicine, I highly recommend Anna.",
+  },
+  {
+    name: "Steve",
+    condition: "Joint Pain & Sleep",
+    quote:
+      "Anna started out reviewing medical history and explaining the treatment plan. Had immediate relief in knee and shoulder. She addressed my sleep issues and have woke up the past 2 nights with great energy! Go see her!",
+  },
+  {
+    name: "Niclas P.",
+    condition: "General Wellness",
+    quote:
+      "Fantastic and compassionate! I really value Anna's insight and knowledge, and I'm looking forward to our next appointment!",
+  },
 ] as const;
 
 export const FAQ_ITEMS = [
